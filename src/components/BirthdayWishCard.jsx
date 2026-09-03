@@ -113,9 +113,9 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
                 boxShadow: '0 12px 32px rgba(59,130,246,0.25)',
                 position: 'relative', zIndex: 1
               }}>
-                <img src="/felicia 1.jpeg" alt="Felicia" style={{
+                <img src="/adam 1.jpeg" alt="Adam" style={{
                   width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center center'
-                }} onError={(e) => { e.target.src = '/felicia 1.jpeg'; }} />
+                }} onError={(e) => { e.target.src = '/adam 1.jpeg'; }} />
               </div>
             </div>
 
@@ -132,7 +132,7 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
                 fontFamily: 'var(--font-display)', fontSize: '2.5rem', color: '#1e40af',
                 lineHeight: 1, margin: 0
               }}>
-                Felicia 🌸✨
+                Adam 🌸✨
               </h1>
             </div>
 
@@ -146,7 +146,7 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
               fontFamily: 'var(--font-body)', fontSize: '0.86rem', color: 'var(--berry-light)',
               lineHeight: 1.7, marginBottom: 24, fontStyle: 'italic', padding: '0 6px'
             }}>
-              "Selamat ulang tahun yang ke-15 yaa sayang. Semoga di usiamu yang sekarang kamu selalu diberikan kesehatan, kebahagiaan, dimudahkan dalam segala urusan, dan tercapai semua cita-citamu. Jangan lupa bahagia yaa sayang, you deserve all the happiness in the world! ❤️"
+              "Selamat bertambah usia yang ke-23, sayangku. Semoga setiap langkahmu senantiasa dipenuhi keberkahan, kesehatan, kedamaian, dan kelancaran di setiap perjalanan. Selalu hati² yaw selama kerjanya. Lovyou mass🫶"
             </p>
 
             {/* Sign Off */}
@@ -155,7 +155,7 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
                 With Love & Best Wishes 💖✨
               </p>
               <p style={{ fontFamily: 'var(--font-display)', fontSize: '1.7rem', color: '#1e40af' }}>
-                Happy 15th Birthday, Felicia 🌸✨
+                Happy 23rd Birthday, Adam 🌸✨
               </p>
             </div>
 

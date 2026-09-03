@@ -9,13 +9,14 @@ export default function MemoryGallery({ onNext }) {
   const containerRef = useRef(null);
 
   const exhibits = [
-    { src: '/felicia 1.jpeg', tag: 'EXHIBIT #01', title: 'Beautiful Radiance 🌟' },
-    { src: '/felicia 2.jpeg', tag: 'EXHIBIT #02', title: 'Sweet Smile ✨' },
-    { src: '/felicia 3.jpeg', tag: 'EXHIBIT #03', title: 'Cute & Joyful 🌸' },
-    { src: '/felicia 4.jpeg', tag: 'EXHIBIT #04', title: 'Warm Atmosphere ☀️' },
-    { src: '/felicia 5.jpeg', tag: 'EXHIBIT #05', title: 'Precious Moments 💎' },
-    { src: '/felicia 6.jpeg', tag: 'EXHIBIT #06', title: 'Sweet Memories 💖' },
-    { src: '/felicia 7.jpeg', tag: 'EXHIBIT #07', title: 'Favorite View 🌺' },
+    { src: '/adam 1.jpeg', tag: 'EXHIBIT #01', title: 'Handsome & Bright 🌟' },
+    { src: '/adam 2.jpeg', tag: 'EXHIBIT #02', title: 'Sweet Smile ✨' },
+    { src: '/adam 3.jpeg', tag: 'EXHIBIT #03', title: 'Cool & Joyful 🌿' },
+    { src: '/adam 4.jpeg', tag: 'EXHIBIT #04', title: 'Warm Atmosphere ☀️' },
+    { src: '/adam 5.jpeg', tag: 'EXHIBIT #05', title: 'Precious Moments 💎' },
+    { src: '/adam 6.jpeg', tag: 'EXHIBIT #06', title: 'Sweet Memories 💖' },
+    { src: '/adam 7.jpeg', tag: 'EXHIBIT #07', title: 'Favorite View 🌺' },
+    { src: '/adam 8.jpeg', tag: 'EXHIBIT #08', title: 'Forever Special 👑' },
   ];
 
   useEffect(() => {
@@ -116,7 +117,7 @@ export default function MemoryGallery({ onNext }) {
           fontFamily: 'var(--font-display)', fontSize: '2.2rem', color: '#1e40af',
           lineHeight: 1.15, marginBottom: 6, letterSpacing: '-0.5px'
         }}>
-          Galeri Foto Felicia 🌸✨
+          Galeri Foto Adam 🌸✨
         </h1>
       </div>
 
@@ -162,7 +163,7 @@ export default function MemoryGallery({ onNext }) {
               width: '100%', height: '100%', objectFit: 'cover',
               transformOrigin: 'center center'
             }}
-            onError={(e) => { e.target.src = '/felicia 1.jpeg'; }}
+            onError={(e) => { e.target.src = '/adam 1.jpeg'; }}
           />
 
           {/* Lightbox Inspect Trigger */}
