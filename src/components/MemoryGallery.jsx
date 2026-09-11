@@ -12,11 +12,11 @@ export default function MemoryGallery({ onNext }) {
     { src: '/adam 1.jpeg', tag: 'EXHIBIT #01', title: 'Handsome & Bright 🌟' },
     { src: '/adam 2.jpeg', tag: 'EXHIBIT #02', title: 'Sweet Smile ✨' },
     { src: '/adam 3.jpeg', tag: 'EXHIBIT #03', title: 'Cool & Joyful 🌿' },
-    { src: '/adam 4.jpeg', tag: 'EXHIBIT #04', title: 'Warm Atmosphere ☀️' },
-    { src: '/adam 5.jpeg', tag: 'EXHIBIT #05', title: 'Precious Moments 💎' },
-    { src: '/adam 6.jpeg', tag: 'EXHIBIT #06', title: 'Sweet Memories 💖' },
-    { src: '/adam 7.jpeg', tag: 'EXHIBIT #07', title: 'Favorite View 🌺' },
-    { src: '/adam 8.jpeg', tag: 'EXHIBIT #08', title: 'Forever Special 👑' },
+    { src: '/adam 7.jpeg', tag: 'EXHIBIT #04', title: 'Favorite View 🌺' },
+    { src: '/adam 8.jpeg', tag: 'EXHIBIT #05', title: 'Forever Special 👑' },
+    { src: '/adam 9.jpeg', tag: 'EXHIBIT #06', title: 'Precious Moments 💎' },
+    { src: '/adam 10.jpeg', tag: 'EXHIBIT #07', title: 'Warm Atmosphere ☀️' },
+    { src: '/adam 11.jpeg', tag: 'EXHIBIT #08', title: 'Sweet Memories 💖' },
   ];
 
   useEffect(() => {

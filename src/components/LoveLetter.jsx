@@ -43,8 +43,8 @@ function LetterTab() {
           width: 36, height: 12, background: 'rgba(122,154,96,0.4)',
           borderRadius: 2, backdropFilter: 'blur(4px)', zIndex: 10
         }} />
-        <img src="/adam 5.jpeg" alt="Adam" style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-          onError={(e) => { e.target.src = '/adam 5.jpeg'; }} />
+        <img src="/adam 9.jpeg" alt="Adam" style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+          onError={(e) => { e.target.src = '/adam 9.jpeg'; }} />
       </div>
 
       {/* Opening Badge Header */}
